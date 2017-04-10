@@ -6,7 +6,7 @@
         </dependency>
 
         <dependency org="commons-lang" name="commons-lang" rev="2.1" >
-            <artifact name="commons-lang" type= />
+            <artifact name="commons-lang" type="jar" />
         </dependency>
 
     </dependencies>
