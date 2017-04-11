@@ -134,6 +134,11 @@ public class Hello {
 }
         </echo>
     </target>
+
+    <target name="report" depends="go" description="---> generate documentation">
+        <mkdir dir="report"/>
+        <ivy:report todir="report"/>
+    </target>
     <!-- ================================= 
           target: clean              
          ================================= -->
